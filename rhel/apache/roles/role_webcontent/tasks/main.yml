@@ -21,7 +21,7 @@
     service: http
     permanent: true
     state: enabled
-    immediate: yes
+    immediate: true
 
 - name: Apache enabled and running
   service:
